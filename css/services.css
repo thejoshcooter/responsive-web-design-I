@@ -81,6 +81,16 @@
   }
 }
 
+@media (max-width: 500px) {
+  .service-offering div {
+    height: 230px;
+  }
+
+  .service-offering button {
+    margin: 20px 0 10px;
+  }
+}
+
 .service-facts {
   display: flex;
   justify-content: space-evenly;
@@ -119,12 +129,6 @@
   .service-facts ul {
     margin-left: 20px;
   }
-
-  /* .service-facts div {
-    background-color: pink;
-    width: 45%;
-    margin: 0 5%;
-  } */
 }
 
 .copyright {
