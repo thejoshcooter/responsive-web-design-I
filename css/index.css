@@ -173,17 +173,32 @@ h1, h2, h3, h4, h5 {
 }
 
 .two-col {
-	border-top: 2px solid black;
-}
-
-.two-col {
 	display: flex;
 	justify-content: space-between;
+  border-top: 2px solid black;
 }
 
 .middle-img {
 	display: block;
 	margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+
+  .two-col div {
+    width: 96%;
+    margin: 0 2%;
+  }
+
+  .middle-img {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .three-col div {
+    width: 32%;
+    margin: 0 1.33%;
+  }
 }
 
 .three-col {
