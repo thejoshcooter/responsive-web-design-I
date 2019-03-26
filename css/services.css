@@ -1,0 +1,137 @@
+
+.services-header {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.services-header article {
+  align-self: center;
+  width: 880px;
+  margin: 30px;
+}
+
+@media (max-width: 800px) {
+  .services-header article {
+    width: 90%;
+  }
+}
+
+.services-header h1 {
+  font-size: 1.5em;
+}
+
+.services-header-img {
+  align-self: center;
+}
+
+@media (max-width: 800px) {
+  .services-header-img {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+.service-offering {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.service-offering div {
+  width: 400px;
+  height:250px;
+  margin: 25px;
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 2px solid black;
+  background-color: #d3d3d3;
+}
+
+.service-offering div {
+  line-height: 1.2em;
+}
+
+@media (max-width: 800px) {
+  .service-offering {
+  }
+
+  .service-offering div {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.service-offering button {
+  align-self: flex-start;
+  margin: 20px 0 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+@media (max-width: 800px) {
+  .service-offering button {
+    align-self: flex-end;
+    margin: 20px 50px 10px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .service-offering div {
+    height: 230px;
+  }
+
+  .service-offering button {
+    margin: 20px 0 10px;
+  }
+}
+
+.service-facts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 25px;
+}
+
+.service-facts div {
+  line-height: 1.2em;
+  padding: 25px 40px 25px 0;
+}
+
+
+.service-facts ul {
+  list-style-type: square;
+  padding: 25px;
+}
+
+@media (max-width: 800px) {
+  .service-facts {
+    flex-flow: column-reverse;
+  }
+
+  .service-facts img {
+    width: 80%;
+    align-self: center;
+  }
+
+  .service-facts div {
+    align-items: center;
+  }
+
+  .service-facts div h2, .service-facts div p {
+    padding: 20px;
+  }
+
+  .service-facts ul {
+    margin-left: 20px;
+  }
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+}
